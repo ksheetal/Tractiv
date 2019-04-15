@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#324755</color>
+    <color name="colorPrimaryDark">#324755</color>
+    <color name="colorAccent">#D97D54</color>
+    <color name="btnColor">#D97D54</color>
+    <color name="nextBtnColor">#C4714B</color>
+    <color name="whiteColor">#ffffff</color>
+    <color name="dotColor">#1B1C20</color>
+    <color name="lastcolor">#87BCBF</color>
+    <color name="firstcolor">#B9B0A2</color>
+    <color name="secondcolor">#D97D54</color>
+</resources>
