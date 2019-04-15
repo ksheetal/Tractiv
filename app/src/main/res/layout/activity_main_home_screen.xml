@@ -26,7 +26,7 @@
 
     </android.support.v7.widget.Toolbar>
 
-  <!--  <FrameLayout
+   <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -36,7 +36,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/my_toolbar">
 
-    </FrameLayout> -->
+    </FrameLayout>
 
 
     <android.support.design.widget.FloatingActionButton
