@@ -3,4 +3,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textPerson"><b>{Person.getName()}</b> surfer for <b>{Person.getTime()}</b> at <b>{Person.getPlace()}</b></string>
+    <string name="timeforpersonString">Todat at {Person.TimeForUpdatedPost()}</string>
+
 </resources>

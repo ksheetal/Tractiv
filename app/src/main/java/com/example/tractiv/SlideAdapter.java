@@ -13,14 +13,12 @@ import android.widget.TextView;
 public class SlideAdapter extends PagerAdapter {
 
 
-    /*
-        @Dev - Sheetal Kumar
-        Date - 23 Jan 2018
-     */
+
 
     LayoutInflater layoutInflater;
 
     Context context;
+
     public SlideAdapter(Context context) {
         this.context = context;
     }
@@ -33,7 +31,6 @@ public class SlideAdapter extends PagerAdapter {
             R.drawable.maskthree,
 
     };
-
 
 
     //Animation bottomToUp = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.bottom_to_top);
@@ -67,13 +64,9 @@ public class SlideAdapter extends PagerAdapter {
         TextView slideDesc = (TextView) view.findViewById(R.id.textViewSecond);
 
 
-          // Animation animation = AnimationUtils.loadAnimation(context, R.anim.bottom_to_top);
-          // slideHeading.startAnimation(animation);
-          // slideDesc.startAnimation(animation);
-
         slide_image_view.setImageResource(slide_image[position]);
 
-       slideHeading.setText(slide_headings[position]);
+        slideHeading.setText(slide_headings[position]);
         slideDesc.setText(slide_desc[position]);
 
         container.addView(view);

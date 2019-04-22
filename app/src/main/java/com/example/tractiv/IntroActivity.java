@@ -57,24 +57,6 @@ public class IntroActivity extends AppCompatActivity {
         viewPager.addOnPageChangeListener(viewListner);
         viewPager.setPageTransformer(true, new ZoomOutPageTransformer());
 
-        //Handling click event (next button pressed.)
-      /*  mNextBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                //if user if one third slider and he/she clicks on next button he/she will be send to Login Screen
-                if (mCurrentPage == 2) {
-
-                    Toast.makeText(IntroActivity.this,"Hello",Toast.LENGTH_LONG).show();
-                  //  sendToLoginScreen();
-
-                }
-
-                //sending user to next screen
-                viewPager.setCurrentItem(mCurrentPage + 1); // sending back to next page from the current one
-            }
-        });*/
-
         // Handling click event (previous button clicked)
 
        mPreBtn.setOnClickListener(new View.OnClickListener() {
